@@ -1,4 +1,4 @@
-### Design Support Library Sample
+### Design Support Library Demo
 
 This app demonstrates very basic usage of the [Design Support Library](http://android-developers.blogspot.com/2015/05/android-design-support-library.html). It's not fully featured, but it serves as a decent starting point.
 
