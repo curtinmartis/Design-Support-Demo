@@ -1,0 +1,11 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="TextInputWidgetAppearance" parent="android:TextAppearance.Material.Widget.TextView">
+        <item name="android:textColor">#00BB00</item>
+    </style>
+
+</resources>
