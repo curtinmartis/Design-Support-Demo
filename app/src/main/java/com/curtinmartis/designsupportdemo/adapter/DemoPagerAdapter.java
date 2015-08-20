@@ -1,9 +1,9 @@
-package com.ticketmaster.designsupportdemo.adapter;
+package com.curtinmartis.designsupportdemo.adapter;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentPagerAdapter;
 
-import com.ticketmaster.designsupportdemo.fragment.DemoFragment;
+import com.curtinmartis.designsupportdemo.fragment.DemoFragment;
 
 public class DemoPagerAdapter extends FragmentPagerAdapter {
 

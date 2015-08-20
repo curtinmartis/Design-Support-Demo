@@ -1,4 +1,4 @@
-package com.ticketmaster.designsupportdemo.activity;
+package com.curtinmartis.designsupportdemo.activity;
 
 import android.os.Bundle;
 import android.support.design.widget.CollapsingToolbarLayout;
@@ -9,15 +9,15 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuInflater;
 
-import com.ticketmaster.designsupportdemo.R;
-import com.ticketmaster.designsupportdemo.adapter.SimpleCardAdapter;
+import com.curtinmartis.designsupportdemo.adapter.SimpleCardAdapter;
+import com.curtinmartis.designsupportdemo.R;
 
-public class ToolbarPinActivity extends AppCompatActivity {
+public class ToolbarParallaxActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_toolbar_pin);
+        setContentView(R.layout.activity_toolbar_parallax);
         setupActionBar();
         setupRecyclerView();
     }

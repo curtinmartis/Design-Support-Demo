@@ -1,4 +1,4 @@
-package com.ticketmaster.designsupportdemo.activity;
+package com.curtinmartis.designsupportdemo.activity;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -12,7 +12,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.animation.OvershootInterpolator;
 
-import com.ticketmaster.designsupportdemo.R;
+import com.curtinmartis.designsupportdemo.R;
 
 
 public class MainActivity extends AppCompatActivity {

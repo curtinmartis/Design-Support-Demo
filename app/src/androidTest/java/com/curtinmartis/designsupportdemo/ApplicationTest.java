@@ -1,4 +1,4 @@
-package com.ticketmaster.designsupportdemo;
+package com.curtinmartis.designsupportdemo;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

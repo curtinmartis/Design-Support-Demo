@@ -1,4 +1,4 @@
-package com.ticketmaster.designsupportdemo.adapter;
+package com.curtinmartis.designsupportdemo.adapter;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -6,8 +6,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.ticketmaster.designsupportdemo.R;
-import com.ticketmaster.designsupportdemo.adapter.SimpleCardAdapter.SimpleViewHolder;
+import com.curtinmartis.designsupportdemo.R;
+import com.curtinmartis.designsupportdemo.adapter.SimpleCardAdapter.SimpleViewHolder;
 
 public class SimpleCardAdapter extends RecyclerView.Adapter<SimpleViewHolder> {
 

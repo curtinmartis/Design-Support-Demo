@@ -1,27 +1,40 @@
-package com.ticketmaster.designsupportdemo.activity;
+package com.curtinmartis.designsupportdemo.activity;
 
 import android.os.Bundle;
+import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
+import android.view.Menu;
+import android.view.MenuInflater;
 
-import com.ticketmaster.designsupportdemo.R;
-import com.ticketmaster.designsupportdemo.adapter.SimpleCardAdapter;
+import com.curtinmartis.designsupportdemo.adapter.SimpleCardAdapter;
+import com.curtinmartis.designsupportdemo.R;
 
-public class ToolbarHideActivity extends AppCompatActivity {
+public class ToolbarPinActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_toolbar_hide);
+        setContentView(R.layout.activity_toolbar_pin);
         setupActionBar();
         setupRecyclerView();
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.menu_main, menu);
+        return true;
     }
 
     private void setupActionBar() {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        CollapsingToolbarLayout toolbarLayout = (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar);
+        toolbarLayout.setTitle(toolbar.getTitle());
     }
 
     private void setupRecyclerView() {

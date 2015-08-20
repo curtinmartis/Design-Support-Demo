@@ -1,4 +1,4 @@
-package com.ticketmaster.designsupportdemo.activity;
+package com.curtinmartis.designsupportdemo.activity;
 
 import android.os.Bundle;
 import android.support.design.widget.TextInputLayout;
@@ -7,7 +7,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.View.OnClickListener;
 
-import com.ticketmaster.designsupportdemo.R;
+import com.curtinmartis.designsupportdemo.R;
 
 public class TextInputLayoutActivity extends AppCompatActivity {
 

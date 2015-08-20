@@ -1,4 +1,4 @@
-package com.ticketmaster.designsupportdemo.activity;
+package com.curtinmartis.designsupportdemo.activity;
 
 import android.os.Bundle;
 import android.support.design.widget.Snackbar;
@@ -9,8 +9,8 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 
-import com.ticketmaster.designsupportdemo.R;
-import com.ticketmaster.designsupportdemo.adapter.DemoPagerAdapter;
+import com.curtinmartis.designsupportdemo.R;
+import com.curtinmartis.designsupportdemo.adapter.DemoPagerAdapter;
 
 public class TabActivity extends AppCompatActivity {
 

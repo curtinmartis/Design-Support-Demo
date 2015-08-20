@@ -5,7 +5,7 @@ android {
     buildToolsVersion "22.0.1"
 
     defaultConfig {
-        applicationId "com.ticketmaster.designsupportdemo"
+        applicationId "com.curtinmartis.designsupportdemo"
         minSdkVersion 16
         targetSdkVersion 22
         versionCode 1

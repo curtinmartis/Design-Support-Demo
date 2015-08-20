@@ -1,4 +1,4 @@
-package com.ticketmaster.designsupportdemo.fragment;
+package com.curtinmartis.designsupportdemo.fragment;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -8,7 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.ticketmaster.designsupportdemo.R;
+import com.curtinmartis.designsupportdemo.R;
 
 public class DemoFragment extends Fragment {
 

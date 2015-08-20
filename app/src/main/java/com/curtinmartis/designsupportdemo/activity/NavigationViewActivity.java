@@ -1,10 +1,10 @@
-package com.ticketmaster.designsupportdemo.activity;
+package com.curtinmartis.designsupportdemo.activity;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 
-import com.ticketmaster.designsupportdemo.R;
+import com.curtinmartis.designsupportdemo.R;
 
 public class NavigationViewActivity extends AppCompatActivity {
 
