@@ -1,7 +1,5 @@
 package com.curtinmartis.designsupportdemo.activity;
 
-import android.animation.Animator;
-import android.animation.AnimatorListenerAdapter;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -10,7 +8,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.view.animation.OvershootInterpolator;
 
 import com.curtinmartis.designsupportdemo.R;
 
@@ -94,27 +91,10 @@ public class MainActivity extends AppCompatActivity {
     private void showFabTapped() {
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         if (fab.isShown()) {
-            hideFab(fab);
+            fab.hide();
         } else {
-            showFab(fab);
+            fab.show();
         }
-    }
-
-    private void showFab(FloatingActionButton fab) {
-        fab.setVisibility(View.VISIBLE);
-        fab.animate().scaleX(1).scaleY(1).setInterpolator(new OvershootInterpolator());
-    }
-
-    private void hideFab(final FloatingActionButton fab) {
-        fab.animate().scaleX(0).scaleY(0).setInterpolator(new OvershootInterpolator())
-                .setListener(new AnimatorListenerAdapter() {
-                    @Override
-                    public void onAnimationEnd(Animator animation) {
-                        super.onAnimationEnd(animation);
-                        fab.setVisibility(View.GONE);
-                        fab.animate().setListener(null);
-                    }
-                });
     }
 
 }
