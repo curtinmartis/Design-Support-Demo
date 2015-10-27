@@ -89,9 +89,7 @@
         android:layout_gravity="right|bottom"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
-        android:scaleX="0"
-        android:scaleY="0"
-        android:visibility="gone"
+        android:visibility="invisible"
         android:src="@android:drawable/ic_input_add"
         app:fabSize="normal"
         android:id="@+id/fab"/>
